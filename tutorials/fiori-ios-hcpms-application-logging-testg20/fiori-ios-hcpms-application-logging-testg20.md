@@ -2,8 +2,8 @@
 title: ASDF Application logging and tracing testgreen20
 description: Logging and tracing using the SAP BTP SDK for iOS.
 auto_validation: true
-primary_tag: products>ios-sdk-for-sap-btp
-tags: [  tutorial>beginner, topic>mobile, operating-system>ios, products>sap-business-technology-platform, products>sap-mobile-services ]
+primary_tag: software-product>businessobjects-universal-bridge
+tags: [  tutorial>beginner, products>sap-hana, products>sap-hana-studio, topic>big-data, software-product>sap-process-control ]
 ---
 ## Prerequisites  
 
