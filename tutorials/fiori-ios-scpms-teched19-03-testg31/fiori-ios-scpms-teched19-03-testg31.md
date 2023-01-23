@@ -1,9 +1,9 @@
-﻿---
+---
 title: ASDF Customize the Overview View Controller to Display Customers and Products testgreen31
 description: Use the Swift programming language and the SAP BTP SDK for iOS to implement data loading from the sample data service and display the results in a Table View in your app. Also add Table View Section Headers and Footers to give the data more structure and a nice clean UI.
 auto_validation: true
-primary_tag: products>ios-sdk-for-sap-btp
-tags: [  tutorial>intermediate, operating-system>ios, topic>mobile, topic>odata, products>sap-business-technology-platform, products>sap-mobile-services ]
+primary_tag: software-product>businessobjects-universal-bridge
+tags: [  tutorial>beginner, products>sap-hana, products>sap-hana-studio, topic>big-data, software-product>sap-process-control ]
 time: 15
 ---
 
