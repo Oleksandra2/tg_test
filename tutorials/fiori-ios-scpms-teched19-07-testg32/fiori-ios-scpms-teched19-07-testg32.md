@@ -2,8 +2,8 @@
 title: ASDF Implement Image Classification Using a Trained Core ML Model and Vision Framework testgreen32
 description: Import a trained Core ML model and use the Vision framework to prepare a certain image for the classification, then use the classification result to fetch products of a certain product category from the sample data service.
 auto_validation: true
-primary_tag: products>ios-sdk-for-sap-btp
-tags: [  tutorial>intermediate, operating-system>ios, topic>mobile, topic>odata, products>sap-business-technology-platform, products>sap-mobile-services ]
+primary_tag: software-product>businessobjects-universal-bridge
+tags: [  tutorial>beginner, products>sap-hana, products>sap-hana-studio, topic>big-data, software-product>sap-process-control ]
 time: 25
 ---
 
