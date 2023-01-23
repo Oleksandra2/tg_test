@@ -2,8 +2,8 @@
 title: ASDF Logging and tracing in SAP Mobile Services for development and operations testgreen21
 description: Logging and tracing overview in the SAP Mobile Services for development and operations Administration Cockpit.
 auto_validation: true
-primary_tag: products>ios-sdk-for-sap-btp
-tags: [  tutorial>beginner, topic>mobile, operating-system>ios, products>sap-business-technology-platform, products>sap-mobile-services ]
+primary_tag: software-product>businessobjects-universal-bridge
+tags: [  tutorial>beginner, products>sap-hana, products>sap-hana-studio, topic>big-data, software-product>sap-process-control ]
 ---
 ## Prerequisites  
 
