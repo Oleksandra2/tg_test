@@ -3,8 +3,8 @@ title: ASDF Refine the List Report with Annotations testgreen35
 description: Add additional annotations to show filter fields and columns on the list report as well as to allow the selection of data using a value help.
 auto_validation: true
 time: 30
-tags: [ products>sap-fiori-elements, tutorial>beginner, products>sap-business-technology-platform, products>sap-btp--abap-environment]
-primary_tag: products>sap-fiori
+primary_tag: software-product>businessobjects-universal-bridge
+tags: [  tutorial>beginner, products>sap-hana, products>sap-hana-studio, topic>big-data, software-product>sap-process-control ]
 ---
 
 ## Prerequisites
