@@ -2,8 +2,8 @@
 title: ASDF Access SAP Mobile Services testgreen26
 description: Access SAP Mobile Services within a SAP Business Technology Platform account and open the Mobile Services cockpit.
 auto_validation: true
-primary_tag: products>sap-mobile-services
-tags: [  tutorial>beginner, topic>mobile, operating-system>ios, products>sap-business-technology-platform, products>sap-mobile-services, products>ios-sdk-for-sap-btp, products>android-sdk-for-sap-btp, products>sap-mobile-cards, products>mobile-development-kit-client]
+primary_tag: software-product>businessobjects-universal-bridge
+tags: [  tutorial>beginner, products>sap-hana, products>sap-hana-studio, topic>big-data, software-product>sap-process-control ]
 time: 5
 author_name: Jitendra Kansal
 author_profile: https://github.com/jitendrakansal
