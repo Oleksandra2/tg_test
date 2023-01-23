@@ -2,8 +2,8 @@
 title: ASDF Configure Mobile Services in Assistant testgreen27
 description: Enable SAP Mobile Services and create a connection in the SAP BTP SDK Assistant for iOS.
 auto_validation: true
-primary_tag: products>ios-sdk-for-sap-btp
-tags: [  tutorial>beginner, operating-system>ios, topic>mobile, topic>odata, products>sap-business-technology-platform, products>sap-mobile-services]
+primary_tag: software-product>businessobjects-universal-bridge
+tags: [  tutorial>beginner, products>sap-hana, products>sap-hana-studio, topic>big-data, software-product>sap-process-control ]
 time: 15
 author_name: Sandeep TDS
 author_profile: https://github.com/sandeep-tds
