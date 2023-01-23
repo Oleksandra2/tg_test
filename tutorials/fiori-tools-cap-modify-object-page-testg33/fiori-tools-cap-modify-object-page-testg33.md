@@ -1,10 +1,10 @@
-﻿---
+---
 title: ASDF Extend the Object Page by Adding More Functionality testgreen33
 description: Refine the object page by adding new fields and extend it with a new section leveraging the Flexible Programming Model.
 auto_validation: true
 time: 40
-tags: [ products>sap-fiori-elements, products>sap-fiori-tools, tutorial>beginner, products>sap-fiori, products>sap-business-application-studio, software-product-function>sap-cloud-application-programming-model, products>sap-business-technology-platform]
-primary_tag: products>sap-fiori
+primary_tag: software-product>businessobjects-universal-bridge
+tags: [  tutorial>beginner, products>sap-hana, products>sap-hana-studio, topic>big-data, software-product>sap-process-control ]
 ---
 
 ## Prerequisites
