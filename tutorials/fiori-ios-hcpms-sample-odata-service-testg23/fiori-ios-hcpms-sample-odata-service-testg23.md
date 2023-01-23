@@ -2,8 +2,8 @@
 title: ASDF Use the Sample OData Service for Mobile Apps testgreen23
 description: Use the sample OData service included with the SAP Mobile Services for development and operations account.
 auto_validation: true
-primary_tag: products>ios-sdk-for-sap-btp
-tags: [  tutorial>beginner, topic>mobile, operating-system>ios, products>sap-business-technology-platform ]
+primary_tag: software-product>businessobjects-universal-bridge
+tags: [  tutorial>beginner, products>sap-hana, products>sap-hana-studio, topic>big-data, software-product>sap-process-control ]
 time: 10
 ---
 ## Prerequisites  
