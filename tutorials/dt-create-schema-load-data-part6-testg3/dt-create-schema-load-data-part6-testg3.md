@@ -1,5 +1,5 @@
 ---
-title: ASDF Migrate Records in Related Tables Using Stored Procedure testgreen3
+title: ASDF Migrate Records in Related Tables Using Stored Procedure testgreen3 updated
 description: Using a stored procedure to migrate records in related tables as a single transaction.
 auto_validation: true
 primary_tag: products>sap-hana-dynamic-tiering
