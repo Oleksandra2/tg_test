@@ -1,5 +1,5 @@
 ---
-title: ASDF Selectively Move Data Between In-Memory and Extended Tables testgreen2
+title: ASDF Selectively Move Data Between In-Memory and Extended Tables testgreen2 updated
 description: Move data between in-memory and extended tables. Set connection property values.
 auto_validation: true
 primary_tag: software-product>businessobjects-universal-bridge
