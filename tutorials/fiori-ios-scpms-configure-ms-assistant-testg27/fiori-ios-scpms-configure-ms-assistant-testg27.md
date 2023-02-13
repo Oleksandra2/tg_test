@@ -5,8 +5,6 @@ auto_validation: true
 primary_tag: software-product>businessobjects-universal-bridge
 tags: [  tutorial>beginner, products>sap-hana, products>sap-hana-studio, topic>big-data, software-product>sap-process-control ]
 time: 15
-author_name: Sandeep TDS
-author_profile: https://github.com/sandeep-tds
 ---
 
 ## Prerequisites
