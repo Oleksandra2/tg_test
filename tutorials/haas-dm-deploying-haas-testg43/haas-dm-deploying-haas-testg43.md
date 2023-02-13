@@ -3,8 +3,6 @@ title: ASDF Deploy SAP HANA service for SAP BTP testgreen43
 description: Create an instance of the SAP HANA service for SAP BTP.
 auto_validation: true
 time: 15
-author_name: Thomas Jung
-author_profile: https://github.com/jung-thomas
 primary_tag: software-product>businessobjects-universal-bridge
 tags: [  tutorial>beginner, products>sap-hana, products>sap-hana-studio, topic>big-data, software-product>sap-process-control ]
 ---
