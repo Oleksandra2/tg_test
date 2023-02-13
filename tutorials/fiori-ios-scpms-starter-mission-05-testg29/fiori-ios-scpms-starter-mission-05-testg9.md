@@ -2,8 +2,6 @@
 title: ASDF Understand Mac Catalyst testgreen29
 description: Learn what Mac Catalyst is and what you should consider before transforming your iOS app into a MacOS application.
 auto_validation: true
-author_name: Kevin Muessig
-author_profile: https://github.com/KevinMuessig
 primary_tag: software-product>businessobjects-universal-bridge
 tags: [  tutorial>beginner, products>sap-hana, products>sap-hana-studio, topic>big-data, software-product>sap-process-control ]
 time: 20
