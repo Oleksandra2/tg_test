@@ -3,8 +3,6 @@ title: ASDF Access a Classic Schema from SAP Web IDE Full-Stack testgreen39
 description: Access data in a plain or replicated schema from an HDI container.
 auto_validation: true
 time: 20
-author_name: Thomas Jung
-author_profile: https://github.com/jung-thomas
 primary_tag: software-product>businessobjects-universal-bridge
 tags: [  tutorial>beginner, products>sap-hana, products>sap-hana-studio, topic>big-data, software-product>sap-process-control ]
 ---
