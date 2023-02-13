@@ -3,8 +3,6 @@ title: ASDF Create a Database Multi-Target Application with SAP HANA service for
 description: Create an application with a database module.
 auto_validation: true
 time: 15
-author_name: Thomas Jung
-author_profile: https://github.com/jung-thomas
 primary_tag: software-product>businessobjects-universal-bridge
 tags: [  tutorial>beginner, products>sap-hana, products>sap-hana-studio, topic>big-data, software-product>sap-process-control ]
 ---
