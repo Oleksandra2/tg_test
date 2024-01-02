@@ -123,37 +123,4 @@ The app starts with an overview of the available **Collections** of the OData se
 [DONE]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 5: ](Examine the Sales Order Headers Master view)]
 
-Click on, for instance, `SalesOrderHeaders`, it will now load the `SalesOrderHeaders` entities and display their ID.
-
-![SAP BTP SDK Assistant for iOS](img_016.png)
-
-[DONE]
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [Step 6: ](Examine a Sales Order Header Detail view)]
-
-If you now tap on one of the `SalesOrderHeaders` entities, it will display the **Detail** view for that entity.
-
-![SAP BTP SDK Assistant for iOS](img_017.png)
-
-[VALIDATE_11]
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [Step 7: ](Examine user registration in Mobile Services Cockpit)]
-
-Open **SAP Mobile Services Cockpit** and here you see `SampleApp` application created by iOS SAP BTP SDK Assistant for iOS.
-
-![SAP BTP SDK Assistant for iOS](img_019.png)
-
-Click **User registrations** under **Analytics**.
-
-![SAP BTP SDK Assistant for iOS](img_020.png)
-
-Here you will find user registration details.
-
->A user registration is a unique combination of Registration ID, User Name, Application ID and Device Type.
-
-[DONE]
-[ACCORDION-END]
