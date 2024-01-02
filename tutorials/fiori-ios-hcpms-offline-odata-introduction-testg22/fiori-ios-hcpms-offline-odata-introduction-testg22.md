@@ -72,49 +72,6 @@ When a database is being opened for the first time, the app sends the defining q
 [DONE]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 3: ](Refreshing the database)]
-
-After a user has been offline for a while and data on the device needs to be updated, the Request for Refresh sequences is started. This sequence starts with sending the defined requests to the back-end again. However, these defined requests are not used to build up the database, as the database already exists.
-
-Please find a schematic representation of the request for refresh sequence below:
-
-![Request for Refresh sequence](image-3.png)
-
-When the database is being refreshed the the app sends the defining queries over to the SAP Mobile Services for development and operations. If the originating OData service supports delta-token, the client store on the SAP Mobile Services for development and operations is refreshed using delta-tokens, otherwise a full refresh of the client store is performed. Once the client store is in sync all changes are sent to the client using the MobiLink protocol.
-
-[VALIDATE_3]
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [Step 4: ](Data Flush sequence)]
-
-After a user has entered data, and when the user is back online again, the entered data needs to be uploaded to the originating OData service. This is achieved by collecting all requests that need to be executed in the Offline store on the device, synchronizing them to the SAP Mobile Services for development and operations back-end, and from there they will be played back on the originating OData service in the same order as in which they were received.
-
-Please find a schematic representation of the data flush sequence below:
-
-![Data flush sequence](image-4.png)
-
-In the diagram, you can see that the requests are being sent to the offline store on the device, in which the changes are captured. Once the user goes online and flushes his data, the request queue is being synchronized to the SAP Mobile Services for development and operations back-end. From there, SAP Mobile Services for development and operations will playback each request to the originating OData service. All errors along with their original requests are stored in the Error Archive, which manifest itself as an OData entity set named `ErrorArchive`.
-
-[DONE]
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [Step 5: ](Error and events)]
-
-Unlike in the online scenario where most errors are displayed immediately, errors happening in the offline scenario errors are not discovered until the upload operation is performed.
-
-When a request fails against the backend OData Service during an upload operation, the request and any relevant details are stored in the `ErrorArchive` entity in the Offline Store. App developers must determine what to do for these errors and whether they want to fix, merge or revert entries that have an error state.
-
-Events that happened during synchronization can be retrieved in a similar fashion as the errors. Events are stored in the `EventLog` entity set.
-
-[DONE]
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [Step 6: ](Configuration of the SAP BTP)]
-
-To leverage the offline store features it is not necessary to add any specific configuration to your application. In that case, SAP Mobile Services for development and operations will apply defaults that will make a good amount of applications run smoothly.
-
-However, it is possible to tune the configuration of offline applications to optimize offline performance by defining e.g.:
-
 - Column indexes for the client database
 - Common user data to cache on the server to reduce the amount of data that needs to be synchronized with the back end.
 
